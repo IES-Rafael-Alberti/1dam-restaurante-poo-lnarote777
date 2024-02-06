@@ -18,7 +18,7 @@ MutableList<String> ) {
     }
 
     override fun toString(): String {
-        return "${this.nombre} (${this.tiempoPreparacion} min.) -> ${this.precio}€ (${this.ingredientes})"
+        return "${this.nombre} (${this.tiempoPreparacion} min.) -> ${this.precio}€ (${this.ingredientes.joinToString(", ")})"
     }
 
 }
