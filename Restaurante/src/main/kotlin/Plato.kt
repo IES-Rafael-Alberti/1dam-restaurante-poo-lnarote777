@@ -14,6 +14,7 @@ MutableList<String> ) {
 
     fun agregarIngrediente(ingrediente:String){
         ingredientes.add(ingrediente)
+
     }
 
     override fun toString(): String {
